@@ -43,7 +43,7 @@ const deleteTodo = (id: number) => {
     <>
       <div className=" bg-yellow-600 p-2 min-h-screen flex justify-center items-center">
         <div className="max-w-[500px] w-[80%] p-5 bg-amber-400 rounded-md shadow-md">
-          <h1 className="text-center text-2xl text-gray-800">
+          <h1 className="font-serif text-center text-2xl italic text-gray-800">
             Todos for the day
           </h1>
           <div className="flex justify-center gap-2 my-6">
@@ -62,7 +62,7 @@ const deleteTodo = (id: number) => {
             </button>
           </div>
           <div>
-            <h2 className="text-center text-xl text-gray-800">Todo List</h2>
+            <h2 className="font-serif italic text-center text-xl text-gray-800">Todo List</h2>
           {todos.length > 0 ? (
             <>
               {todos.map((todo) => {
