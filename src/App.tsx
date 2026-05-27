@@ -42,7 +42,7 @@ const deleteTodo = (id: number) => {
   return (
     <>
       <div className=" bg-yellow-600 p-2 min-h-screen flex justify-center items-center">
-        <div className="max-w-[500px] w-[70%] p-5 bg-amber-400 rounded-md shadow-md -mt-32">
+        <div className="max-w-[500px] w-[90%] p-5 bg-amber-400 rounded-md shadow-md -mt-32">
           <h1 className="font-serif text-center text-2xl italic text-gray-800">
             Todos for the day
           </h1>
